@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background-image: url("img.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.box {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  width: 400px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  border-radius: 15%;
+}
+.box:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05, 1.05);
+}
+
+.nav{
+    height:28px;
+    width:350px;
+    margin: 35px auto;
+    position:relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.rounded{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border:0;
+    outline:none;
+    position: relative;
+}
+a{
+    color:black;
+}
+a:hover{
+    color:blue;
+}
+
+.nav_btn{
+    top:0;
+    left:0;
+    position: absolute;
+    width:110px;
+    height: 100%;
+    background:linear-gradient(to right,#ff105f, #ffad06);
+    border-radius: 30px;
+    transition:.5s;
+}
+.div_data{
+    margin-left:39px ;
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.form-control{
+    width:100%;
+    padding: 10px 0;
+    margin:5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background: transparent;
+
+}
+.dis{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    text-align: center;
+    
+    
+
+}
+.sunmit_btn{
+    margin-top: 22px;
+    width: 60%;
+    padding: 10px 10px;
+    cursor: pointer;
+    display: block;
+    margin:auto;
+    color: teal;
+    font-size: 15px;
+    font-weight:bolder;
+    background:linear-gradient(to right,#ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+
+
+}
