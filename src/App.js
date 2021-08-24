@@ -1,10 +1,11 @@
 //import logo from './logo.svg';
 //import Birthday from './BIrthday/Birthday';
 //import Dashboard from './Accordion/Dashboard';
-import MenuPge from './Menu/MenuPge';
+//import MenuPge from './Menu/MenuPge';
+import Slider from './Slider/Slider';
 //import Tab from './Tabs/Tab';
 //import Review from './Reviews/Review';
-import Travel from './Tours/Travel';
+//import Travel from './Tours/Travel';
 //import Main from './Forms/Main';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
     {/* <Review/> */}
     {/* <Dashboard/> */}
     {/* <Tab/> */}
-    <MenuPge/>
+    {/* <MenuPge/> */}
+    <Slider/>
         </div>
   );
 }
