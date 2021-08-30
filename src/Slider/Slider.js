@@ -20,6 +20,7 @@ const Slider = () => {
       useEffect(() => {
         let slider = setInterval(() => {
           setIndex(index + 1);
+          console.log("slide");
         }, 5000);
         return () => {
           clearInterval(slider);
